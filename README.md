@@ -16,10 +16,11 @@ python manage.py runserver
 ```
 
 ### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 
 Backend runs on http://localhost:8000
 
@@ -27,12 +28,16 @@ Frontend runs on http://localhost:5173
 
 ### Test Commands
 Backend (pytest)
+```bash
 cd backend
 pytest
+```
 
 ### Frontend (Vitest + Testing Library)
+```bash
 cd frontend
 npm run test
+```
 
 ### Time Spent
 
@@ -135,4 +140,5 @@ A small mistake, but it shows where I need to pay closer attention to test utili
 
 **4. Forgetting to add useQueryClient() before onMutate**
 The optimistic update code initially threw internal errors because I didn’t instantiate the query client early enough.
+
 
