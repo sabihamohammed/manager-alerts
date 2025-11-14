@@ -1,0 +1,37 @@
+
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+.env
+*.log
+
+# Django static/build
+staticfiles/
+media/
+
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Tests
+coverage/
+.vitest/
+
+# Vite temp files
+*.tsbuildinfo
+
+# Editor / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
+*.swo
+.venv/
